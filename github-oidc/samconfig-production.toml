@@ -1,0 +1,9 @@
+version=0.1
+
+[default.deploy.parameters]
+stack_name = "github-role-iam"
+s3_bucket = "cloudformation-deployments-luigi"
+s3_prefix = "cloudformation-deployments-luigi"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM CAPABILITY_NAMED_IAM"
